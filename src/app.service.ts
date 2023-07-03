@@ -26,8 +26,8 @@ export class AppService {
     try {
       await this.producer.connect();
       await this.producer.send({
-        topic: 'test-from-appX',
-        messages: [{ value: 'hi from appX' }],
+        topic: 'test-from-appX8',
+        messages: [{ value: 'hi from appX8' }],
       });
       return 'Hello World!, send message success';
     } catch (error) {
